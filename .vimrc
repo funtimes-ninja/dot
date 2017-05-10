@@ -12,3 +12,4 @@ hi SpellBad guibg=#ff2929 ctermbg=224
 syntax on
 autocmd Filetype c setlocal ts=8 sw=8 expandtab
 au FileType python setl sw=4 sts=4 et
+autocmd FileType make set noexpandtab
